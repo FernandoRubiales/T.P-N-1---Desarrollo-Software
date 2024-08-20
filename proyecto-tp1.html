@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1-Desarrollo Software</title>
+    <style>
+        header,footer {
+            background-color: rgb(143, 99, 141);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        table {
+            width: 20%;
+            border-collapse: collapse;
+        }
+        th,td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Encabezado Principal</h1>
+    </header>
+    <main>
+        <section id="1.0">
+            <h3>1. Estructura Básica del Documento HTML</h3>
+            <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiqueras de metadatos y un título</p>
+            
+        </section>
+
+        <section id="2.0">
+            <h3>2. Encabezados y Propiedades del Texto</h3>
+            <h1>Desarrollo de Software con h1</h1>
+            <h2>Desarrollo de Software con h2</h2>
+            <h3>Desarrollo de Software con h3</h3>
+            <h4 >Desarrollo de Software con h4</h4>
+            <h5>Desarrollo de Software con h5</h5>
+            <h6>Desarrollo de Software con h6</h6>
+            <p style="font-weight: bold;">Este es un texto en negrita</p>
+            <p style="font-style: italic;">Este es un texto en cursiva</p>
+            <p style="text-decoration: underline;">Este es un texto subrayado</p>
+        </section>
+
+        <section id="3.0">
+            <h3>3. Divisiones y Agrupación de Contenido</h3>
+            <div>
+                <section id="3.1"><strong>Sección 1</strong>
+                    <p>Contenido de la primera sección agrupada en un div.</p>
+                </section>
+                <section id="3.2"><strong>Sección 2</strong>
+                    <p>Contenido de la segunda sección agrupada en un div.</p>
+                </section>
+                
+            </div>
+                
+        </section>
+
+        <section id="4.0">
+            <h3>4. Enlaces y Listas</h3>
+            <div>
+                <nav>
+                    <p>Visita nuestro <a href="https://chatgpt.com/" target="_blank">sitio web</a> para mas información.</p>
+                </nav>
+            </div>
+            <div>
+                <p>Enlaces internos:</p>
+                <ul>
+                    <li><a href="#1.0">Ir a Estructura Básica del Documento HTML</a></li>
+                    <li><a href="#2.0">Ir a Encabezados y Propiedades del Texto</a></li>
+                    <li><a href="#3.0">Ir a Divisiones y Agrupacion de Contenido</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Lista desordenada:</p>
+                <ul>
+                    <li>Primer item de una lista desordenada</li>
+                    <li>Segundo item de una lista desordenada</li>
+                </ul>
+            </div>
+            <div>
+                <p>Lista ordenada:</p>
+                <ol>
+                    <li>Primer item de una lista ordenada</li>
+                    <li>Primer item de una lista ordenada</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="5.0">
+            <h3>5. Elementos Multimedia</h3>
+            <div>
+                <img src="https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/04/27/2023042714473295975.png" alt="Inteligencia Artificial" width="500px" height="350px">
+                <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="400px" height="350px"></video>
+                <audio src="https://archive.org/download/testmp3testfile/mpthreetest.mp3" controls></audio>
+            </div>
+        </section>
+
+        <section id="6.0">
+            <h3>6. Tablas</h3>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>DNI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Joaquin</td>
+                            <td>Rodriguez</td>
+                            <td>42.567.369</td>
+                        </tr>
+                        <tr>
+                            <td>Sofia</td>
+                            <td>Gutierrez</td>
+                            <td>42.868.159</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="7.0">
+            <h3>7. Formularios</h3>
+            <div>
+                <form>
+                    <div>
+                        <label>Nombre: </label>
+                        <input type="text" placeholder="Ingrese su nombre">
+                    </div>
+                    <div>
+                        <label>Email: </label>
+                        <input type="email" placeholder="ejemplo@gmail.com">
+                    </div>
+                    <div>
+                        <label>Mensaje: </label>
+                        <textarea></textarea>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+       pie de pagina 
+    </footer>
+</body>
+</html>
